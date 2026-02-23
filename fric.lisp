@@ -60,5 +60,6 @@
          :mps 2
          :mu mu
          :epsilon-scale 1d0)
-  (run :output-dir (format nil "./output-refine-~E/" r)
-       :results-dir (format nil "./results/data-refine-~E/" r)))
+  (run :output-dir (format nil "./data/output-refine-~E/" r)
+       ;:results-dir (format nil "./results/data-refine-~E/" r)
+       ))
