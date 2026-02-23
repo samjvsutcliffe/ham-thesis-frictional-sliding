@@ -1,2 +1,2 @@
-# ham-template
-Template for projects that run on hamilton
+# Frictional sliding - penalty
+Elastic slab sliding over rigid fricitonal surface.
