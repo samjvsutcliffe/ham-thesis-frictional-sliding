@@ -3,13 +3,13 @@
 (sb-ext:restrict-compiler-policy 'safety 0 0)
 (setf *block-compile-default* t)
 
-(ql:quickload :cl-mpm/examples)
-(in-package :cl-mpm/examples)
+(ql:quickload :cl-mpm/examples/penalty/sliding)
+(in-package :cl-mpm/examples/penalty/sliding)
 
 (setf cl-mpm/settings::*optimise-setting* cl-mpm/settings::*optimise-speed*)
 
 (defun main (&optional args)
-	(load "template.lisp"))
+	(load "fric.lisp"))
 
 (sb-ext:save-lisp-and-die
    "worker"
